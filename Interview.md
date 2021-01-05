@@ -47,7 +47,7 @@ A: Create the following:
  - security group(s) and NACLs then control inbound and outbound traffic (could ask them to explain the difference between these also (stateful vs. stateless, DENY/ALLOW etc).
 ```
 
-## Direct Questions:
+## Direct Questions (these are more on the Ops side but useful for debugging, exploration etc):
 
 1.
 ```
@@ -56,18 +56,18 @@ A: Unix executable file format (Executable and Linkeable Format), common exec fi
 ```
 2.
 ```
-Q: How do you query the type of a cpu using cat?
+Q: How do you query the type of a CPU using cat?
 A: cat /proc/cpuinfo
 ```
 3:
 ```
 Q: What does the 'w' command output?
-A: uptime and load average
+A: Uptime and load average
 ```
 4:
 ```
-Q: What does load average tell us:
-A: measures the number of threads that are working and waiting to work (CPU, disk, uninterruptible locks).
+Q: What does load average tell us?
+A: It measures the number of threads that are working and waiting to work (CPU, disk, uninterruptible locks).
 ```
 5:
 ```
@@ -76,9 +76,8 @@ A: 65534.
 ```
 6:
 ```
-Q: What does NAT stand for and when is  it used?
-A: Network Address Translation. A NAT Gateway is a host that bridges connectivity between a private network
-and the outside networks.
+Q: What does NAT stand for and when is it used?
+A: Network Address Translation. A NAT Gateway is a host that bridges connectivity between a private network and outside networks, used for instance when doing a `yum update` from a private subnet. 
 ```
 7:
 ```
